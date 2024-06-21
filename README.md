@@ -29,10 +29,27 @@ The `Problem` class describes an optimization problem to be optimized. The user 
 
 The `Optimizer` abstract class describes the interface for a specific optimizer implementation. The user needs to instantiate an object of the preferred algorithm passing the Problem as parameter.
 
-The following code implements a possible basic usage of an optimizer.
+The following code implements a possible basic usage of an optimizer. Firstly the problem to be optimized must be defined providing the fitness function `f`, the bounds and any constraint
 ```
-TODO: sample code
+auto f = [](const RealVector<2> &x)
+{
+  return x[0] * x[0] + x[1] * x[1];
+};
+RealVector<2> lb(-4, -4);
+RealVector<2> ub(4, 4);
+Problem<2> problem(f, lb, ub);
+problem.add_inequality_constraint([](const RealVector<2> &x) {
+  return - std::sin(4 * M_PI * x[0]);
+});
 ```
+Then the choosen solver must be created providing the problem, and then it can be initialized and solved.
+```
+std::unique_ptr<Optimizer<2>> opt = OptimizerFactory<2>::create(OptimizerFactory:SelfAdaptiveSPSO, problem, 100, 1000);
+opt->initialize();
+opt->optimize();
+opt->print_results();
+```
+Here a SASPSO solver has been initialized for solving a 2 dimensional problem `problem` with 100 particles and 1000 iterations.
 
 ## Requirements
 - CMake
