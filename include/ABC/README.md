@@ -71,7 +71,7 @@ The MPI parallelization has been performed exploiting the same algorithmic idea.
 ## Tests and Results
 Optimization of a Problem - `optimize`
 
-This test optimizes a test function defined in the `test_problem` definte with the given dimensions. It logs the best value, total constraint violation, and the number of feasible solutions over iterations, storing the data in `output/abc_optimize_1.csv` file.
+This test optimizes a test function defined in the `test_problem` definte with the given dimensions. It logs the best value, total constraint violation, and the number of feasible solutions over iterations, storing the data in `output/abc_optimize_threads_num.csv` file.
 
 In the results below the G10 test problem in a 8D space is optimized. The swarm is composed by 20 particles and 6k iterations are performed.
 <p align="center">
@@ -89,20 +89,25 @@ In addition, it is worth observing that the first 1k iterations are sufficient t
 
 Execution Time and Speedup - `time_numparticles`
 
-This test optimizes several time a given test function varying only the number of particles. The optimization is done both serially and in parallel logging the execution time in order to compute the parallel speedup. The test stores in the output/abc_time_numparticles_num_threads.csv file all the logged execution time as function of the swarm size.
+This test optimizes several time a given test function varying only the number of particles. The optimization is done both serially and in parallel (omp) logging the execution time in order to compute the parallel speedup. The test stores in the `output/abc_time_numparticles_num_threads.csv` files all the logged execution time as function of the swarm size.
+
+<p align="center">
+<img src= "https://github.com/AMSC22-23/stochastic-optimization-lib/assets/131521380/5727a685-c26f-4730-b0e0-b57cb0c51fe5)" height="500">
 
 
-
-This result shows a parallel speedup around ........running on an Intel Core i7-13700H machine (20 logical threads, 8 performance + 4 power efficient cores). The limited speedup is due to the non trivial synchronization between OpenMP threads needed at each iteration. The scalability of this implementation is linear with respect to the number of available cores.
+This result shows a parallel speedup which increases with the dimension of the problem, reaching a maximum of around  $10\times$, running on an Intel Core i7-13700H machine (20 logical threads, 8 performance + 4 power efficient cores).
+The serial execution time increases linearly with the number of particles, as expected for an algorithm with a computational complexity dependent on the number of particles.
+The speedup initially increases sharply as the number of particles increases, indicating a high efficiency of parallelization for smaller colony sizes.
+Beyond a certain point (around 500 particles), the speedup fluctuates but generally stays high, suggesting that the parallel implementation consistently performs well, though with some variations.
 
 The data collected for many number of threads enable the possiblity to do a strong scaling study. Using the huge G10 test problem and 5000 iterations to have better results, the following results have been collected.
 
 <p align="center">
-<img src= "https://github.com/AMSC22-23/stochastic-optimization-lib/assets/131521380/e0c36c05-4223-4a8f-aeee-5187f607cbbc)" height="500"> 
-</p>
+<img src= "https://github.com/AMSC22-23/stochastic-optimization-lib/assets/131521380/fa90d5fd-4c3b-4baf-94ef-7fccf34bd89b)" height="500"> 
+ 
+The plot shows that, while the ABC algorithm benefits significantly from parallel execution, achieving substantial reductions in execution time, the efficiency of this scaling is influenced by problem size and overheads. In particular, we note an almost optimal behaviour with high dimension problems and a small number of threads (up to 4). A generale small deterioration is experienced between 4 and 8 threads, and finally from 8 to 16 threads it starts again to show almost optimal strong scalability.
+Smaller problems exhibit less efficient scaling, emphasizing the need to match problem size with appropriate parallelization levels for optimal performance. Overall, for computations that lasts for less than 5 seconds it is possible to observe only small improvements from multithreading. This data has been collected running the tests in the MOX cluster, on up to 16 physical cores.
 
-We note an almost optimal behaviour with high dimension problems and a small number of threads (up to 4). A generale small deterioration is experienced between 4 and 8 threads, and finally from 8 to 16 threads it starts again to show almost optimal strong scalability. Overall, for computations that lasts for less than 5 seconds it is possible to observe only small improvements from multithreading. This data has been collected running the tests in the MOX cluster, on up to 16 physical cores. 
-This test logs the execution time of the ABC algorithm for varying swarm sizes, both in serial and parallel modes. It computes the parallel speedup and stores the data in output/abc_time_numparticles_num_threads.csv.
 
 Conclusion
 
