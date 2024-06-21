@@ -12,9 +12,6 @@ Each of the implemented algorithms has its own ```README.md``` file in order to 
   - The ABC algorithm is inspired by the foraging behavior of honey bees. It simulates the intelligent food searching behavior of a honey bee swarm.
   - Constrained optimization available with a constraint handling technique based on the **feasibility-based rule**.
   - Thread-level OpenMP plus Process-level MPI parallelization available.
-- **THIRD ALGORITHM**
-  - Brief description
-  - Constrained opt provided / not provided
 
 ## Common interface
 All the provided algorithms shares the same standard public interface. The user can use the same sequence of method calls to solve a given problem, indipendently from the choosen algorithm.
