@@ -89,7 +89,8 @@ In addition, it is worth observing that the first 1k iterations are sufficient t
 
 Execution Time and Speedup - `time_numparticles`
 
-This test optimizes several time a given test function varying only the number of particles. The optimization is done both serially and in parallel (omp) logging the execution time in order to compute the parallel speedup. The test stores in the `output/abc_time_numparticles_num_threads.csv` files all the logged execution time as function of the swarm size.
+This test optimizes several time a given test function varying only the number of particles. The optimization is done both serially and in parallel (omp) logging the execution time in order to compute the parallel speedup. 
+The test stores in the `output/abc_time_numparticles_num_threads.csv` files all the logged execution time as function of the swarm size.
 
 <p align="center">
 <img src= "https://github.com/AMSC22-23/stochastic-optimization-lib/assets/131521380/5727a685-c26f-4730-b0e0-b57cb0c51fe5)" height="500">
@@ -100,13 +101,19 @@ The serial execution time increases linearly with the number of particles, as ex
 The speedup initially increases sharply as the number of particles increases, indicating a high efficiency of parallelization for smaller colony sizes.
 Beyond a certain point (around 500 particles), the speedup fluctuates but generally stays high, suggesting that the parallel implementation consistently performs well, though with some variations.
 
-The data collected for many number of threads enable the possiblity to do a strong scaling study. Using the huge G10 test problem and 5000 iterations to have better results, the following results have been collected.
+The data collected for many number of threads enable the possiblity to do a strong scaling study, done both for omp and mpi parallelization. Using the huge G10 test problem and 5000 iterations to have better results, the following results have been collected.
 
 <p align="center">
 <img src= "https://github.com/AMSC22-23/stochastic-optimization-lib/assets/131521380/fa90d5fd-4c3b-4baf-94ef-7fccf34bd89b)" height="500"> 
  
-The plot shows that, while the ABC algorithm benefits significantly from parallel execution, achieving substantial reductions in execution time, the efficiency of this scaling is influenced by problem size and overheads. In particular, we note an almost optimal behaviour with high dimension problems and a small number of threads (up to 4). A generale small deterioration is experienced between 4 and 8 threads, and finally from 8 to 16 threads it starts again to show almost optimal strong scalability.
+This plot refers to omp parallelization. It shows that, while the ABC algorithm benefits significantly from parallel execution, achieving substantial reductions in execution time, the efficiency of this scaling is influenced by problem size and overheads. In particular, we note an almost optimal behaviour with high dimension problems and a small number of threads (up to 4). A generale small deterioration is experienced between 4 and 8 threads, and finally from 8 to 16 threads it starts again to show almost optimal strong scalability.
 Smaller problems exhibit less efficient scaling, emphasizing the need to match problem size with appropriate parallelization levels for optimal performance. Overall, for computations that lasts for less than 5 seconds it is possible to observe only small improvements from multithreading. This data has been collected running the tests in the MOX cluster, on up to 16 physical cores.
+
+The following plot, instead, refers to mpi parallelization. It is evident that it shows a more consistent approach to ideal scaling. Unlike the OMP implementation, where smaller problem sizes showed significant deviations, MPI maintains closer adherence to the ideal scaling line across various problem sizes. This can be attributed to its distributed memory model and minimized communication overheads. 
+
+<p align="center">
+<img src= "https://github.com/AMSC22-23/stochastic-optimization-lib/assets/131521380/2d9048a9-63c9-41a7-aa44-ad4d054db835)" height="500"> 
+
 
 
 Conclusion
