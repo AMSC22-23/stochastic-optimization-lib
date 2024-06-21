@@ -92,8 +92,6 @@ NB: Eigen 3.3 can be loaded using [mk modules](https://github.com/pcafrica/mk) o
    All the plots are stored in the `/plots` folder.
    NB: we choose to have different scripts since each of them manages data in a different way: the first takes a single file, the second aggregates more files data, and the last manages files to produce an animation.
 
-## Documentation
-The full documentation is available [here](). TODO: add link to docs
 
 ## Authors
 - Pierpaolo Marzo
