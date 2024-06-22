@@ -1,0 +1,179 @@
+\hypertarget{classProblem}{}\doxysection{Problem$<$ dim $>$ Class Template Reference}
+\label{classProblem}\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+
+
+Class that represents a problem to be optimized.  
+
+
+
+
+{\ttfamily \#include $<$Problem.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classProblem_a002a8c59b527a2b5137410f6c4ab7852}{Problem}} (const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \&fitness\+\_\+function, const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$ dim $>$ \&lower\+\_\+bounds, const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$ dim $>$ \&upper\+\_\+bounds)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classProblem}{Problem}} object. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \& \mbox{\hyperlink{classProblem_a7e122f7dfba6a6cb84aaef0a08aeac0e}{get\+\_\+fitness\+\_\+function}} () const
+\item 
+const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$ dim $>$ \& \mbox{\hyperlink{classProblem_ae1cddbcf6127c5a7646070274e7c347f}{get\+\_\+lower\+\_\+bounds}} () const
+\item 
+const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$ dim $>$ \& \mbox{\hyperlink{classProblem_a629fb2a599f58415528c9288aa052781}{get\+\_\+upper\+\_\+bounds}} () const
+\item 
+double \mbox{\hyperlink{classProblem_a143f29c74904107a8a336fd087bf6812}{get\+\_\+lower\+\_\+bound}} (size\+\_\+t i) const
+\item 
+double \mbox{\hyperlink{classProblem_aee83d4fc88d337541f485976865f2fa5}{get\+\_\+upper\+\_\+bound}} (size\+\_\+t i) const
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ $>$ \& \mbox{\hyperlink{classProblem_a9c451bddb10c05689908f94d5796e4b3}{get\+\_\+equality\+\_\+constraints}} () const
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ $>$ \& \mbox{\hyperlink{classProblem_a6f9a5984e4bcb1b4acb195246ade4b6d}{get\+\_\+inequality\+\_\+constraints}} () const
+\item 
+void \mbox{\hyperlink{classProblem_a99b5ecf7d923ffd2d8cf1036e780d17b}{add\+\_\+equality\+\_\+constraint}} (const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \&constraint)
+\begin{DoxyCompactList}\small\item\em Add an equality constraint to the problem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classProblem_a1742ae9b373ca9d4316233c0ff97ceb5}{add\+\_\+inequality\+\_\+constraint}} (const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \&constraint)
+\begin{DoxyCompactList}\small\item\em Add an inequality constraint to the problem. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classProblem_a9c395b1f60426715a2d4911ca4979d70}{has\+\_\+constraints}} () const
+\begin{DoxyCompactList}\small\item\em Check if the problem has constraints. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$size\+\_\+t dim$>$\newline
+class Problem$<$ dim $>$}
+
+Class that represents a problem to be optimized. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em dim} & indicates the dimension of the space in which the problem is defined\\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em fitness\+\_\+function\+\_\+} & the function to be optimized \\
+\hline
+{\em lower\+\_\+bounds\+\_\+} & the lower bounds of the search space \\
+\hline
+{\em upper\+\_\+bounds\+\_\+} & the upper bounds of the search space \\
+\hline
+{\em equality\+\_\+constraints\+\_\+} & the equality constraints of the problem \\
+\hline
+{\em inequality\+\_\+constraints\+\_\+} & the inequality constraints of the problem \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classProblem_a002a8c59b527a2b5137410f6c4ab7852}\label{classProblem_a002a8c59b527a2b5137410f6c4ab7852}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!Problem@{Problem}}
+\index{Problem@{Problem}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{Problem()}{Problem()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+\mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::\mbox{\hyperlink{classProblem}{Problem}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \&}]{fitness\+\_\+function,  }\item[{const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$ dim $>$ \&}]{lower\+\_\+bounds,  }\item[{const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$ dim $>$ \&}]{upper\+\_\+bounds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new \mbox{\hyperlink{classProblem}{Problem}} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classProblem_a99b5ecf7d923ffd2d8cf1036e780d17b}\label{classProblem_a99b5ecf7d923ffd2d8cf1036e780d17b}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!add\_equality\_constraint@{add\_equality\_constraint}}
+\index{add\_equality\_constraint@{add\_equality\_constraint}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{add\_equality\_constraint()}{add\_equality\_constraint()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+void \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::add\+\_\+equality\+\_\+constraint (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \&}]{constraint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add an equality constraint to the problem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em constraint} & the equality constraint to be added \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classProblem_a1742ae9b373ca9d4316233c0ff97ceb5}\label{classProblem_a1742ae9b373ca9d4316233c0ff97ceb5}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!add\_inequality\_constraint@{add\_inequality\_constraint}}
+\index{add\_inequality\_constraint@{add\_inequality\_constraint}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{add\_inequality\_constraint()}{add\_inequality\_constraint()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+void \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::add\+\_\+inequality\+\_\+constraint (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$ dim $>$ \&}]{constraint }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add an inequality constraint to the problem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em constraint} & the inequality constraint to be added \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classProblem_a9c451bddb10c05689908f94d5796e4b3}\label{classProblem_a9c451bddb10c05689908f94d5796e4b3}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_equality\_constraints@{get\_equality\_constraints}}
+\index{get\_equality\_constraints@{get\_equality\_constraints}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_equality\_constraints()}{get\_equality\_constraints()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+const std\+::vector$<$\mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$dim$>$ $>$\& \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+equality\+\_\+constraints (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_a7e122f7dfba6a6cb84aaef0a08aeac0e}\label{classProblem_a7e122f7dfba6a6cb84aaef0a08aeac0e}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_fitness\_function@{get\_fitness\_function}}
+\index{get\_fitness\_function@{get\_fitness\_function}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_fitness\_function()}{get\_fitness\_function()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+const \mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$dim$>$\& \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+fitness\+\_\+function (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_a6f9a5984e4bcb1b4acb195246ade4b6d}\label{classProblem_a6f9a5984e4bcb1b4acb195246ade4b6d}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_inequality\_constraints@{get\_inequality\_constraints}}
+\index{get\_inequality\_constraints@{get\_inequality\_constraints}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_inequality\_constraints()}{get\_inequality\_constraints()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+const std\+::vector$<$\mbox{\hyperlink{namespacetype__traits_a6a0ffe70680a83cc981917ee90f01cfb}{Real\+Function}}$<$dim$>$ $>$\& \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+inequality\+\_\+constraints (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_a143f29c74904107a8a336fd087bf6812}\label{classProblem_a143f29c74904107a8a336fd087bf6812}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_lower\_bound@{get\_lower\_bound}}
+\index{get\_lower\_bound@{get\_lower\_bound}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_lower\_bound()}{get\_lower\_bound()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+double \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+lower\+\_\+bound (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_ae1cddbcf6127c5a7646070274e7c347f}\label{classProblem_ae1cddbcf6127c5a7646070274e7c347f}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_lower\_bounds@{get\_lower\_bounds}}
+\index{get\_lower\_bounds@{get\_lower\_bounds}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_lower\_bounds()}{get\_lower\_bounds()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$dim$>$\& \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+lower\+\_\+bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_aee83d4fc88d337541f485976865f2fa5}\label{classProblem_aee83d4fc88d337541f485976865f2fa5}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_upper\_bound@{get\_upper\_bound}}
+\index{get\_upper\_bound@{get\_upper\_bound}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_upper\_bound()}{get\_upper\_bound()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+double \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+upper\+\_\+bound (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_a629fb2a599f58415528c9288aa052781}\label{classProblem_a629fb2a599f58415528c9288aa052781}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!get\_upper\_bounds@{get\_upper\_bounds}}
+\index{get\_upper\_bounds@{get\_upper\_bounds}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{get\_upper\_bounds()}{get\_upper\_bounds()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+const \mbox{\hyperlink{namespacetype__traits_a676e8e996e745f650ecd6a80199a5183}{Real\+Vector}}$<$dim$>$\& \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::get\+\_\+upper\+\_\+bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classProblem_a9c395b1f60426715a2d4911ca4979d70}\label{classProblem_a9c395b1f60426715a2d4911ca4979d70}} 
+\index{Problem$<$ dim $>$@{Problem$<$ dim $>$}!has\_constraints@{has\_constraints}}
+\index{has\_constraints@{has\_constraints}!Problem$<$ dim $>$@{Problem$<$ dim $>$}}
+\doxysubsubsection{\texorpdfstring{has\_constraints()}{has\_constraints()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+bool \mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$\+::has\+\_\+constraints (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Check if the problem has constraints. 
+
+\begin{DoxyReturn}{Returns}
+true if the problem has constraints, false otherwise 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Problem_8hpp}{Problem.\+hpp}}\end{DoxyCompactItemize}

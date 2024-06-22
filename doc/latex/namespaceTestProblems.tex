@@ -1,0 +1,148 @@
+\hypertarget{namespaceTestProblems}{}\doxysection{Test\+Problems Namespace Reference}
+\label{namespaceTestProblems}\index{TestProblems@{TestProblems}}
+
+
+Namespace that contains some optimization problem used for the library testing.  
+
+
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}} \{ \newline
+\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba9150ad17d9b3a53758f9bbfabdb7f228}{TOWNSEND}}
+, \mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba9ad07b8a9c9106f430f3383dacbfcdd7}{GOMEZ\+\_\+\+LEVY}}
+, \mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225baaf0ef56be2afa267124bfbac56e4adde}{G10}}
+, \mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225bac7bebae8261b9e678e0b5ec465cee140}{G7}}
+, \newline
+\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba77ab57f7fd3e1f840b066f3f480422bc}{GRIEWANK}}
+ \}
+\begin{DoxyCompactList}\small\item\em Problems that can be used for testing purposes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$size\+\_\+t dim$>$ }\\\mbox{\hyperlink{classProblem}{Problem}}$<$ dim $>$ \mbox{\hyperlink{namespaceTestProblems_a6bdd517e1cd32aa1d8554645d28753b7}{create\+\_\+problem}} (\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}} p)
+\begin{DoxyCompactList}\small\item\em Create and return the specified testing problem. \end{DoxyCompactList}\item 
+{\footnotesize template$<$size\+\_\+t dim$>$ }\\double \mbox{\hyperlink{namespaceTestProblems_a5d6cc34fcea44f092017c580935b2134}{get\+\_\+exact\+\_\+value}} (\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}} p)
+\begin{DoxyCompactList}\small\item\em Get the exact value solving the minimization of the given problem. \end{DoxyCompactList}\item 
+{\footnotesize template$<$size\+\_\+t dim$>$ }\\Real\+Vector$<$ dim $>$ \mbox{\hyperlink{namespaceTestProblems_a9f97dc459f306eaae565ecb13dee5956}{get\+\_\+exact\+\_\+position}} (\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}} p)
+\begin{DoxyCompactList}\small\item\em Get the position of the given problem minimum. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Namespace that contains some optimization problem used for the library testing. 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}\label{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}} 
+\index{TestProblems@{TestProblems}!ProblemName@{ProblemName}}
+\index{ProblemName@{ProblemName}!TestProblems@{TestProblems}}
+\doxysubsubsection{\texorpdfstring{ProblemName}{ProblemName}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Test\+Problems\+::\+Problem\+Name}}}
+
+
+
+Problems that can be used for testing purposes. 
+
+
+\begin{DoxyItemize}
+\item TOWNSEND\+: 2D function with global minimum f(2.\+0052938, 1.\+1944509) = -\/2.\+0239884
+\item GOMEZ\+\_\+\+LEVY\+: 2D function with global minimum f(0.\+089842010, -\/0.\+7126564) = -\/1.\+031628453
+\item G10\+: 8D function with global minimum f(579.\+3167,1359.\+943,5110.\+71,182.\+0714,295.\+5985,217.\+979,286.\+4162,395.\+5979) = 7049.\+248
+\item G7\+: 10D function with global minimum f(2.\+1719, 2.\+3636, 8.\+7739, 5.\+0959, 0.\+9906, 1.\+4305, 1.\+3216, 9.\+8287, 8.\+2800, 8.\+3759) = 24.\+30620
+\item GRIEWANK\+: 30D function with global minimum f(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) = 1 
+\end{DoxyItemize}\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TOWNSEND@{TOWNSEND}!TestProblems@{TestProblems}}\index{TestProblems@{TestProblems}!TOWNSEND@{TOWNSEND}}}\mbox{\Hypertarget{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba9150ad17d9b3a53758f9bbfabdb7f228}\label{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba9150ad17d9b3a53758f9bbfabdb7f228}} 
+TOWNSEND&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GOMEZ\_LEVY@{GOMEZ\_LEVY}!TestProblems@{TestProblems}}\index{TestProblems@{TestProblems}!GOMEZ\_LEVY@{GOMEZ\_LEVY}}}\mbox{\Hypertarget{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba9ad07b8a9c9106f430f3383dacbfcdd7}\label{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba9ad07b8a9c9106f430f3383dacbfcdd7}} 
+GOMEZ\+\_\+\+LEVY&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{G10@{G10}!TestProblems@{TestProblems}}\index{TestProblems@{TestProblems}!G10@{G10}}}\mbox{\Hypertarget{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225baaf0ef56be2afa267124bfbac56e4adde}\label{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225baaf0ef56be2afa267124bfbac56e4adde}} 
+G10&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{G7@{G7}!TestProblems@{TestProblems}}\index{TestProblems@{TestProblems}!G7@{G7}}}\mbox{\Hypertarget{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225bac7bebae8261b9e678e0b5ec465cee140}\label{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225bac7bebae8261b9e678e0b5ec465cee140}} 
+G7&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GRIEWANK@{GRIEWANK}!TestProblems@{TestProblems}}\index{TestProblems@{TestProblems}!GRIEWANK@{GRIEWANK}}}\mbox{\Hypertarget{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba77ab57f7fd3e1f840b066f3f480422bc}\label{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225ba77ab57f7fd3e1f840b066f3f480422bc}} 
+GRIEWANK&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceTestProblems_a6bdd517e1cd32aa1d8554645d28753b7}\label{namespaceTestProblems_a6bdd517e1cd32aa1d8554645d28753b7}} 
+\index{TestProblems@{TestProblems}!create\_problem@{create\_problem}}
+\index{create\_problem@{create\_problem}!TestProblems@{TestProblems}}
+\doxysubsubsection{\texorpdfstring{create\_problem()}{create\_problem()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+\mbox{\hyperlink{classProblem}{Problem}}$<$dim$>$ Test\+Problems\+::create\+\_\+problem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Create and return the specified testing problem. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em dim} & the dimension of the space in which the problem is defined \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the name of the problem to be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Problem$<$double$>$ required problem object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceTestProblems_a9f97dc459f306eaae565ecb13dee5956}\label{namespaceTestProblems_a9f97dc459f306eaae565ecb13dee5956}} 
+\index{TestProblems@{TestProblems}!get\_exact\_position@{get\_exact\_position}}
+\index{get\_exact\_position@{get\_exact\_position}!TestProblems@{TestProblems}}
+\doxysubsubsection{\texorpdfstring{get\_exact\_position()}{get\_exact\_position()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+Real\+Vector$<$ dim $>$ Test\+Problems\+::get\+\_\+exact\+\_\+position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Get the position of the given problem minimum. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em dim} & the dimension of the space in which the problem is defined \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the name of the problem for which the solution position is required \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Real\+Vector$<$dim$>$ the position of the minimum 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceTestProblems_a5d6cc34fcea44f092017c580935b2134}\label{namespaceTestProblems_a5d6cc34fcea44f092017c580935b2134}} 
+\index{TestProblems@{TestProblems}!get\_exact\_value@{get\_exact\_value}}
+\index{get\_exact\_value@{get\_exact\_value}!TestProblems@{TestProblems}}
+\doxysubsubsection{\texorpdfstring{get\_exact\_value()}{get\_exact\_value()}}
+{\footnotesize\ttfamily template$<$size\+\_\+t dim$>$ \\
+double Test\+Problems\+::get\+\_\+exact\+\_\+value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceTestProblems_a9311cc4f34daee96fc39aa9a4dde225b}{Problem\+Name}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Get the exact value solving the minimization of the given problem. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em dim} & the dimension of the space in which the problem is defined \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the name of the problem for which the solution is required \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double the exact solution 
+\end{DoxyReturn}
