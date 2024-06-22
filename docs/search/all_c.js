@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_7eoptimizer_54',['~Optimizer',['../classOptimizer.html#a21104ca181cf7563184c83893fe05110',1,'Optimizer']]],
-  ['_7eparticle_55',['~Particle',['../classParticle.html#a3f693299dc676750afc77baba97d1c6b',1,'Particle']]]
+  ['main_0',['main',['../test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'test.cpp']]],
+  ['md_20back_20to_20parent_20readme_1',['md back to parent readme',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-1',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-3',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;']]]
 ];

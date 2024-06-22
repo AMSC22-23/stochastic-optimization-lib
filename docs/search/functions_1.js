@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['create_71',['create',['../classOptimizerFactory.html#a9cf8703b7293fa5d108222e81c0ae0e3',1,'OptimizerFactory']]],
-  ['create_5fproblem_72',['create_problem',['../namespaceTestProblems.html#a6bdd517e1cd32aa1d8554645d28753b7',1,'TestProblems']]]
+  ['bee_0',['bee',['../class_bee.html#aa7ddec764f14407d0dcb0c7fe6fbdac5',1,'Bee::Bee(const std::shared_ptr&lt; Problem&lt; dim &gt; &gt; &amp;problem, const std::shared_ptr&lt; std::mt19937 &gt; &amp;random_generator, size_t index_in_colony)'],['../class_bee.html#adff1e0cff1171a095d41f8f52bcee15d',1,'Bee::Bee()=default']]]
 ];

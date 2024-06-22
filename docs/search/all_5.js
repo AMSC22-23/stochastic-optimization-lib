@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['initialize_24',['initialize',['../classOptimizer.html#a4d0b8d5c064136145b6739af3ba62ddf',1,'Optimizer::initialize()'],['../classParticle.html#aff7735a0d0e03c24d1e11e931afab14d',1,'Particle::initialize()']]],
-  ['initialize_5fparallel_25',['initialize_parallel',['../classOptimizer.html#adb2e824b592301904b588cd2664f10d6',1,'Optimizer']]]
+  ['execution_20time_20and_20speedup_20tt_20time_5fnumparticles_20tt_0',['Execution time and Speedup - &lt;tt&gt;time_numparticles&lt;/tt&gt;',['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#execution-time-and-speedup---time_numparticles',1,'']]]
 ];

@@ -1,20 +1,14 @@
 var searchData=
 [
-  ['g10_6',['G10',['../namespaceTestProblems.html#a9311cc4f34daee96fc39aa9a4dde225baaf0ef56be2afa267124bfbac56e4adde',1,'TestProblems']]],
-  ['g7_7',['G7',['../namespaceTestProblems.html#a9311cc4f34daee96fc39aa9a4dde225bac7bebae8261b9e678e0b5ec465cee140',1,'TestProblems']]],
-  ['get_5fequality_5fconstraints_8',['get_equality_constraints',['../classProblem.html#a9c451bddb10c05689908f94d5796e4b3',1,'Problem']]],
-  ['get_5fexact_5fposition_9',['get_exact_position',['../namespaceTestProblems.html#a9f97dc459f306eaae565ecb13dee5956',1,'TestProblems']]],
-  ['get_5fexact_5fvalue_10',['get_exact_value',['../namespaceTestProblems.html#a5d6cc34fcea44f092017c580935b2134',1,'TestProblems']]],
-  ['get_5ffitness_5ffunction_11',['get_fitness_function',['../classProblem.html#a7e122f7dfba6a6cb84aaef0a08aeac0e',1,'Problem']]],
-  ['get_5fglobal_5fbest_5fposition_12',['get_global_best_position',['../classOptimizer.html#ad993e2c264154bf685abaad73dfefba5',1,'Optimizer']]],
-  ['get_5fglobal_5fbest_5fvalue_13',['get_global_best_value',['../classOptimizer.html#ae163f8d1e18378fb0f60277a607c5b87',1,'Optimizer']]],
-  ['get_5finequality_5fconstraints_14',['get_inequality_constraints',['../classProblem.html#a6f9a5984e4bcb1b4acb195246ade4b6d',1,'Problem']]],
-  ['get_5flower_5fbound_15',['get_lower_bound',['../classProblem.html#a143f29c74904107a8a336fd087bf6812',1,'Problem']]],
-  ['get_5flower_5fbounds_16',['get_lower_bounds',['../classProblem.html#ae1cddbcf6127c5a7646070274e7c347f',1,'Problem']]],
-  ['get_5fposition_17',['get_position',['../classParticle.html#ae51b601194ef4fe0e74fad97b4f75f80',1,'Particle']]],
-  ['get_5fstring_5fname_18',['get_string_name',['../classOptimizerFactory.html#acc3e2a01c59ddd88c00b356a30ce812e',1,'OptimizerFactory']]],
-  ['get_5fupper_5fbound_19',['get_upper_bound',['../classProblem.html#aee83d4fc88d337541f485976865f2fa5',1,'Problem']]],
-  ['get_5fupper_5fbounds_20',['get_upper_bounds',['../classProblem.html#a629fb2a599f58415528c9288aa052781',1,'Problem']]],
-  ['gomez_5flevy_21',['GOMEZ_LEVY',['../namespaceTestProblems.html#a9311cc4f34daee96fc39aa9a4dde225ba9ad07b8a9c9106f430f3383dacbfcdd7',1,'TestProblems']]],
-  ['griewank_22',['GRIEWANK',['../namespaceTestProblems.html#a9311cc4f34daee96fc39aa9a4dde225ba77ab57f7fd3e1f840b066f3f480422bc',1,'TestProblems']]]
+  ['c_3a_20users_20aguer_20onedrive_20desktop_20amsc_20project_20stochastic_20optimization_20lib_20readme_20md_20back_20to_20parent_20readme_0',['c: users aguer onedrive desktop amsc project stochastic optimization lib readme md back to parent readme',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-1',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-3',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;']]],
+  ['code_20structure_1',['Code structure',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#code-structure',1,'']]],
+  ['colony_2',['ABC - Artificial Bee colony',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#abc---artificial-bee-colony',1,'']]],
+  ['common_20interface_3',['Common interface',['../md__r_e_a_d_m_e.html#common-interface',1,'']]],
+  ['compile_20and_20run_4',['Compile and Run',['../md__r_e_a_d_m_e.html#compile-and-run',1,'']]],
+  ['compute_5ffitness_5fvalue_5',['compute_fitness_value',['../class_bee.html#a3863071c671861afbe0792fa089e200c',1,'Bee']]],
+  ['compute_5fprobability_6',['compute_probability',['../class_bee.html#acb2367ac8e61dba1147810792f524055',1,'Bee']]],
+  ['constrained_20optimization_7',['Constrained Optimization',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#constrained-optimization',1,'']]],
+  ['create_8',['create',['../class_optimizer_factory.html#adbeef6c417b7ad7f52a77617df0c063e',1,'OptimizerFactory']]],
+  ['create_5fproblem_9',['create_problem',['../namespace_test_problems.html#aee9b8ebd84efce0d39b40a4411cd83bf',1,'TestProblems']]],
+  ['custom_5freduction_10',['custom_reduction',['../class_a_b_c.html#a6a6c4ce660f7c47159075aa5c82a0a86',1,'ABC']]]
 ];

@@ -1,6 +1,23 @@
 var searchData=
 [
-  ['add_5fequality_5fconstraint_1',['add_equality_constraint',['../classProblem.html#a99b5ecf7d923ffd2d8cf1036e780d17b',1,'Problem']]],
-  ['add_5finequality_5fconstraint_2',['add_inequality_constraint',['../classProblem.html#a1742ae9b373ca9d4316233c0ff97ceb5',1,'Problem']]],
-  ['artificialbeecolony_3',['ArtificialBeeColony',['../classOptimizerFactory.html#ae6e6a0a244c9d2f336c47e63b1b52b4caff994fb0b602b33f4d00c5cb44c6ad81',1,'OptimizerFactory']]]
+  ['a_20problem_20tt_20optimize_20tt_0',['Optimization of a problem - &lt;tt&gt;optimize&lt;/tt&gt;',['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#optimization-of-a-problem---optimize',1,'']]],
+  ['abc_1',['abc',['../class_a_b_c.html',1,'ABC&lt; dim &gt;'],['../class_a_b_c.html#a29757be782f65d90d4697be6f5419d84',1,'ABC::ABC()']]],
+  ['abc_20artificial_20bee_20colony_2',['ABC - Artificial Bee colony',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#abc---artificial-bee-colony',1,'']]],
+  ['abc_20key_20features_3',['ABC key Features',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#abc-key-features',1,'']]],
+  ['abc_2ecpp_4',['ABC.cpp',['../_a_b_c_8cpp.html',1,'']]],
+  ['abc_2ehpp_5',['ABC.hpp',['../_a_b_c_8hpp.html',1,'']]],
+  ['adaptive_20optimization_20tt_20static_5fadaptive_20tt_6',['Static vs adaptive optimization - &lt;tt&gt;static_adaptive&lt;/tt&gt;',['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#static-vs-adaptive-optimization---static_adaptive',1,'']]],
+  ['adaptive_20standard_20particle_20swarm_20optimization_7',['SASPSO - Self Adaptive Standard Particle Swarm Optimization',['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#saspso---self-adaptive-standard-particle-swarm-optimization',1,'']]],
+  ['add_5fequality_5fconstraint_8',['add_equality_constraint',['../class_problem.html#a99b5ecf7d923ffd2d8cf1036e780d17b',1,'Problem']]],
+  ['add_5finequality_5fconstraint_9',['add_inequality_constraint',['../class_problem.html#a1742ae9b373ca9d4316233c0ff97ceb5',1,'Problem']]],
+  ['aguer_20onedrive_20desktop_20amsc_20project_20stochastic_20optimization_20lib_20readme_20md_20back_20to_20parent_20readme_10',['aguer onedrive desktop amsc project stochastic optimization lib readme md back to parent readme',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-1',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-3',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;']]],
+  ['algorithm_20description_11',['Algorithm Description',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#algorithm-description',1,'']]],
+  ['algorithms_12',['Algorithms',['../md__r_e_a_d_m_e.html#algorithms',1,'']]],
+  ['amsc_20project_20stochastic_20optimization_20lib_20readme_20md_20back_20to_20parent_20readme_13',['amsc project stochastic optimization lib readme md back to parent readme',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-1',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-3',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;']]],
+  ['and_20results_14',['Tests and Results',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#tests-and-results',1,'']]],
+  ['and_20run_15',['Compile and Run',['../md__r_e_a_d_m_e.html#compile-and-run',1,'']]],
+  ['and_20speedup_20tt_20time_5fnumparticles_20tt_16',['Execution time and Speedup - &lt;tt&gt;time_numparticles&lt;/tt&gt;',['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#execution-time-and-speedup---time_numparticles',1,'']]],
+  ['artificial_20bee_20colony_17',['ABC - Artificial Bee colony',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#abc---artificial-bee-colony',1,'']]],
+  ['artificialbeecolony_18',['ArtificialBeeColony',['../class_optimizer_factory.html#ae6e6a0a244c9d2f336c47e63b1b52b4caff994fb0b602b33f4d00c5cb44c6ad81',1,'OptimizerFactory']]],
+  ['authors_19',['Authors',['../md__r_e_a_d_m_e.html#authors',1,'']]]
 ];

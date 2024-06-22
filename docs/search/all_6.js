@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['log_5fverbose_5f_26',['log_verbose_',['../classOptimizer.html#a611845925822d164867a0eae13092eac',1,'Optimizer']]]
+  ['feasibility_5frule_0',['feasibility_rule',['../class_bee.html#a97d9698f15b5261040822034f9ab59e7',1,'Bee']]],
+  ['features_1',['ABC key Features',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#abc-key-features',1,'']]]
 ];

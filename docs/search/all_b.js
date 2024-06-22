@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['testproblems_48',['TestProblems',['../namespaceTestProblems.html',1,'']]],
-  ['testproblems_2ecpp_49',['TestProblems.cpp',['../TestProblems_8cpp.html',1,'']]],
-  ['testproblems_2ehpp_50',['TestProblems.hpp',['../TestProblems_8hpp.html',1,'']]],
-  ['townsend_51',['TOWNSEND',['../namespaceTestProblems.html#a9311cc4f34daee96fc39aa9a4dde225ba9150ad17d9b3a53758f9bbfabdb7f228',1,'TestProblems']]],
-  ['type_5ftraits_52',['type_traits',['../namespacetype__traits.html',1,'']]],
-  ['typetraits_2ehpp_53',['TypeTraits.hpp',['../TypeTraits_8hpp.html',1,'']]]
+  ['lib_20readme_20md_20back_20to_20parent_20readme_0',['lib readme md back to parent readme',['../md_include_2_a_b_c_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_a_b_c_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-1',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;'],['../md_include_2_s_a_s_p_s_o_2_r_e_a_d_m_e.html#autotoc_md-back-to-parent-readmereadmemd-3',1,'@ref &quot;C:/Users/aguer/OneDrive/Desktop/AMSC-Project/stochastic-optimization-lib/README.md&quot; &quot;&lt;&lt; Back to parent README&quot;']]],
+  ['library_1',['Stochastic Optimization Library',['../md__r_e_a_d_m_e.html',1,'']]],
+  ['log_5fverbose_5f_2',['log_verbose_',['../class_optimizer.html#a611845925822d164867a0eae13092eac',1,'Optimizer']]]
 ];

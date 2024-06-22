@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['optimizer_56',['Optimizer',['../classOptimizer.html',1,'']]],
-  ['optimizerfactory_57',['OptimizerFactory',['../classOptimizerFactory.html',1,'']]]
+  ['abc_0',['ABC',['../class_a_b_c.html',1,'']]]
 ];
