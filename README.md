@@ -92,8 +92,9 @@ NB: Eigen 3.3 can be loaded using [mk modules](https://github.com/pcafrica/mk) o
    All the plots are stored in the `/plots` folder.
    NB: we choose to have different scripts since each of them manages data in a different way: the first takes a single file, the second aggregates more files data, and the last manages files to produce an animation.
 
-The complete documentation of the public interface of our project can be consulted [here](https://amsc22-23.github.io/stochastic-optimization-lib/)
+# Documentation
 
+The complete documentation can be consulted [here](https://amsc22-23.github.io/stochastic-optimization-lib/)
 
 ## Authors
 - Pierpaolo Marzo
