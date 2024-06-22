@@ -1,0 +1,7 @@
+<map id="optimize" name="optimize">
+<area shape="rect" id="Node000001" title="Optimize the given problem using the specified algorithm and log the results to the output files Logg..." alt="" coords="5,35,76,61"/>
+<area shape="rect" id="Node000002" href="$class_optimizer_factory.html#adbeef6c417b7ad7f52a77617df0c063e" title="Method to create a specific optimizer for the given problem given the optimizer name...." alt="" coords="124,5,289,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,39,112,33,113,38,77,44"/>
+<area shape="rect" id="Node000003" href="$class_optimizer_factory.html#acc3e2a01c59ddd88c00b356a30ce812e" title="Get the string name object." alt="" coords="133,56,280,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="77,52,118,59,117,64,76,57"/>
+</map>

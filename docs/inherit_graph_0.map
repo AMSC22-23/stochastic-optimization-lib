@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_optimizer.html" title="Virtual class defining the interface for an optimization algorithm that can be employes for constrain..." alt="" coords="5,31,128,57"/>
+<area shape="rect" id="Node000001" href="$class_a_b_c.html" title="Specialization of the Optimizer class implementing the Artificial Bee Colony Optimization (ABC) algor..." alt="" coords="190,5,283,32"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="143,30,189,23,190,28,144,35"/>
+<area shape="rect" id="Node000002" href="$class_s_a_s_p_s_o.html" title="Specialization of the Optimizer class implementing the Self Adaptive Standard Particle Swarm Optimiza..." alt="" coords="176,56,297,83"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="144,53,176,58,175,63,143,58"/>
+</map>

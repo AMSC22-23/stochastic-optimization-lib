@@ -94,7 +94,7 @@ NB: Eigen 3.3 can be loaded using [mk modules](https://github.com/pcafrica/mk) o
 
 # Documentation
 
-The complete documentation can be consulted [here](https://amsc22-23.github.io/stochastic-optimization-lib/)
+The complete documentation can be consulted [here](https://amsc22-23.github.io/stochastic-optimization-lib/hierarchy.html)
 
 ## Authors
 - Pierpaolo Marzo
